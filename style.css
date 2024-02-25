@@ -1,0 +1,180 @@
+.w-280 {
+    max-width: 280px;
+}
+
+.pl-10 {
+    padding-left: 10px;
+}
+
+.s2 {
+    background: var(--black);
+}
+
+.s2 .card-box {
+    border: 3px solid #60008A;
+    padding: 30px 20px 20px;
+}
+
+.s2 .card-box img {
+    max-width: 120px;
+    height: 121px;
+}
+
+.s2 .h5 {
+    line-height: normal;
+}
+
+
+.s2 .card-box .text-orange,
+.s5 .text-orange {
+    border-bottom: 1px solid var(--dark-orange);
+    cursor: pointer;
+}
+
+.s2 .number-icon {
+    width: 50px;
+    height: 50px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 0;
+}
+
+.s3 {
+    background-image: url(./s3-bg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+.s3 .h5 {
+    letter-spacing: 0.36px;
+}
+
+.s3 .border-left,
+.s5 .border-left {
+    line-height: normal;
+    border-left: 2px solid var(--dark-orange);
+}
+
+.s4 ul {
+    margin-left: 20px;
+}
+
+.s4 ul li:nth-child(even)  {
+    font-weight: 700;
+}
+
+.s4 li::marker {
+    color: var(--white);
+}
+
+.s4 .card-box {
+    background: #60008A;
+    padding: 20px;
+}
+
+.s4 .cta-button {
+    letter-spacing: 1.8px;
+    line-height: 110%;
+    color: var(--white);
+    display: block;
+    padding: 10px ;
+    transition: .3s;
+}
+
+.s4 .cta-faqs {
+    background-color: #1A0025;
+}
+
+.s4 .cta-sign {
+    background-color: var(--dark-orange);
+}
+
+.s4 .cta-button:hover {
+    transform: scale(1.02);
+}
+
+.s5 {
+    background-image: url(./s5-bg.webp);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+
+footer .mom-logo-footer {
+    max-width: 100px;
+}
+
+@media screen and (min-width: 391px) {
+    .s3 {
+        background-image: url(./s3-bg-md.webp);
+    }
+
+    .s5 {
+        background-image: url(./s5-bg-md.webp);
+    }
+}
+
+@media screen and (min-width: 992px) { 
+    .w-280 {
+        max-width: 100%;
+    }
+
+    .s2 .card-box img {
+        width: 150px;
+    }
+
+    .lg-gap-x-20 {
+        column-gap: 20px;
+    }
+    .lg-gap-x-30 {
+        column-gap: 30px;
+    }
+
+    .lg-align-center {
+        align-items: center;
+    }
+
+    .lg-block {
+        display: block;
+    }
+
+    .lg-justify-center {
+        justify-content: center;
+    }
+    
+    .s2 .card-box {
+        padding: 30px 30px 30px 50px;
+    }
+
+    .s2 .number-icon {
+        left: 0;
+        top: 50%;
+    }
+    
+    .s3 {
+        background-image: url(./s3-bg-lg.webp);
+    }
+
+    .s4 .cta-button {
+        width: 400px;
+        padding: 16px;
+    }
+
+    
+    .s4 .card-box {
+        padding: 40px;
+    }
+
+    .s5 {
+        background-image: url(./s5-bg-lg.webp);
+    }
+
+    footer .mom-logo-footer {
+        max-width: 200px;
+    }
+
+    footer .mom-logo {
+        max-width: 438px;
+    }
+}
